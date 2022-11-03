@@ -1,0 +1,29 @@
+{
+  "0" : {
+    "isSpeculative" : 0,
+    "startTTL" : 32,
+    "stopTTL" : "false",
+    "instruction" : "Br",
+    "isSensitive" : 2,
+    "checkCacheState" : 2,
+    "isConst" : 0
+  },
+  "1" : {
+    "isSpeculative" : 1,
+    "startTTL" : 0,
+    "stopTTL" : "false",
+    "instruction" : "Load",
+    "isSensitive" : 2,
+    "checkCacheState" : 2,
+    "isConst" : 0
+  },
+  "2" : {
+    "isSpeculative" : 1,
+    "startTTL" : 0,
+    "stopTTL" : "true",
+    "instruction" : "Load",
+    "isSensitive" : 1,
+    "checkCacheState" : 1,
+    "isConst" : 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "0" : {
+    "isSpeculative" : 1,
+    "startTTL" : 0,
+    "stopTTL" : "false",
+    "instruction" : "Load",
+    "isSensitive" : 1,
+    "checkCacheState" : 1,
+    "isConst" : 2
+  }
+}
